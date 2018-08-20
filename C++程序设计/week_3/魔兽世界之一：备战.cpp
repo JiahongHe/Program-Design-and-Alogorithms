@@ -84,8 +84,6 @@ int main(int arvc, char * argv[]) {
         HeadQuater Red = HeadQuater("red", hq_hp, red_products);
         HeadQuater Blue = HeadQuater("blue", hq_hp, blue_products);
         
-        
-        
         int time = 0;
         bool con_red = Red.add_warrior(time);
         bool con_blue = Blue.add_warrior(time);
